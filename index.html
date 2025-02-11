@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kim jinwoo</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Kim jinwoo</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+             <span></span>
+             <span></span>
+             <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/jinu.jpg" alt="jinu">
+        </div>
+        <div class="section_text">
+            <!-- <p class="section_text_p1">Hello, I'm</p> -->
+            <p>끈기있는 개발자</p>
+            <h1 class="title1">Kim jinwoo</h1>
+            <p class="section_text_p2">Developer</p>
+            
+            <!-- <div class="btn-container">
+                <button 
+                    class="btn btn-color-2" 
+                    onclick="window.open('./assets/')">
+                    Download cv
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div> -->
+            <div id="socials-container">
+                <!-- <img 
+                    src="./assets/linkedin.png" 
+                    alt="My LinkedIn profile" 
+                    class="icon" 
+                    onclick="location.href='https://linkedin.com/'"
+                    /> -->
+                    <img 
+                    src="./assets/github.png" 
+                    alt="My Github profile" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/Gochiboss?tab=repositories'"
+                    />
+                    <img 
+                    src="./assets/insta.png" 
+                    alt="My insta" 
+                    class="icon" 
+                    onclick="location.href='https://www.instagram.com/jjww_kim/'"
+                    />
+            </div>   
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="experience-details-container">
+        <div class="section-container">
+            <!-- <div class="section_pic-container">
+                <img 
+                    src="./assets/jinu.jpg" 
+                    alt="Profile picture" 
+                    class="about.pic"
+                />
+            </div> -->
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                            src="./assets/experience.png" 
+                            alt="Experience icon" 
+                            class="icon"
+                        />
+                        <h3>Introduction</h3>
+                        <p>2000.01.21<br />경기도 안성시 <br /> 010-9188-4095</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                            src="./assets/education.png" 
+                            alt="Education icon" 
+                            class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>동일공업고등학교<br />컴퓨터미디어보안과<br />신구대학교<br />IT소프트웨어과</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                            src="./assets/pr.png" 
+                            alt="pr icon" 
+                            class="icon"
+                        />
+                        <h3>Cerpificate</h3>
+                        <p>정보처리기능사 2015.10<br />통신선로기능사 2018.07<br /></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>React</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Firesbase</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>MySql</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>PHP</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Spring</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>JSP</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Android Studio</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>IntellJ</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>VsCode</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Figma</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Github</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/arrow.png" 
+            alt="Arrow icon" 
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/Frame 21.png" 
+                        alt="Project 1" 
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">다차자</h2>
+                <p class="project-content">분실물 찾기를 도와주는 애플리케이션<p>
+                <div class="btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/Gochiboss/DCJ'"
+                        >
+                            Github
+                    </button>
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://www.youtube.com/watch?v=YeLcHJmhCT4'"
+                        >
+                            Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/po.png" 
+                        alt="Project 1" 
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">포트폴리오</h2>
+                <div class="btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/Gochiboss/Portfolio'"
+                        >
+                            Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                        src="./assets/tr.png" 
+                        alt="Project 1" 
+                        class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">차기 프로젝트</h2>
+                <div class="btn-container">
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Github
+                    </button>
+                    <button 
+                        class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow"
+        onclick="location.href='./experience'"
+    />
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="Email icon" 
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:0001211@naver.com">0001211@naver.com</a>
+                </p>
+            </div>
+            
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/phone.png" 
+                    alt="phone icon" 
+                    class="icon contact-icon"
+                />
+                <p><a>010-9188-4095</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Kim jinwoo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
